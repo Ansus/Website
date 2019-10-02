@@ -349,13 +349,14 @@ ul {
 }
 
 .section-portfolio .project-container {
-    padding: 0 10vw;
+    padding: 0 2vw;
 }
 
 .section-portfolio .project {
     margin: 0 5px 26px;
     position: relative;
-    max-width: 620px;
+    max-width: 800px;
+    width: 70vw;
 }
 
 .section-portfolio .project-thumbnail .fa {
@@ -605,6 +606,9 @@ ul {
             .section-hero .section-header > h2 {
                 font-size: 40px;
             }
+            .section-portfolio .project {
+                width: 80vw;
+            }
         }
 
     @media screen and (max-width: 479px) {
@@ -618,5 +622,11 @@ ul {
         .section-hero .section-header > h2 {
             font-size: 32px;
         }
+        .section-portfolio .project {
+            width: 85vw;
+        }
+        .mapouter {
+            width: 85%;
+          }
     }
 
