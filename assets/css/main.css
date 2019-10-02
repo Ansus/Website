@@ -85,7 +85,8 @@ p {
 ol,
 ul {
     margin-top: 0;
-    margin-bottom: 13px
+    margin-bottom: 13px;
+    line-height: 1em;
 }
 
 /* grid */
